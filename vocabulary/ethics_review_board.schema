@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "EthicalReviewBoard",
+    "description": "List of Ethical Review Boards",
+    "type": "object",
+    "required": ["popular","other_human","other_animal"],
+    "properties": {
+        "popular": {
+             "description": "popularly used review boards",
+             "type": "array",
+             "items": {
+                 "type": "string"
+             } 
+         },
+        "other_human": {
+             "description": "other review boards concerning human subjects",
+             "type": "array",
+             "items": {
+                 "type": "string"
+             } 
+         },
+        "other_animal": {
+             "description": "other review boards concerning animal subjects",
+             "type": "array",
+             "items": {
+                 "type": "string"
+             } 
+         }
+    }
+}

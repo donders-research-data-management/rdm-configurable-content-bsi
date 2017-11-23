@@ -1,0 +1,117 @@
+[
+   {
+      "id":"PD",
+      "name":"Public Domain",
+      "path":"PD.txt"
+   },
+   {
+      "id":"CC0-1.0",
+      "name":"CreativeCommons Zero 1.0 Public Domain Dedication",
+      "path":"CC0-1.0.txt"
+   },
+   {
+      "id":"CC-BY-4.0",
+      "name":"CreativeCommons Attribution 4.0 International",
+      "path":"CC-BY-4.0.txt"
+   },
+   {
+      "id":"CC-BY-ND-4.0",
+      "name":"CreativeCommons Attribution-NoDerivatives 4.0 International",
+      "path":"CC-BY-ND-4.0.txt"
+   },
+   {
+      "id":"CC-BY-SA-4.0",
+      "name":"CreativeCommons Attribution-ShareAlike 4.0 International",
+      "path":"CC-BY-SA-4.0.txt"
+   },
+   {
+      "id":"CC-BY-NC-4.0",
+      "name":"CreativeCommons Attribution-NonCommercial 4.0 International",
+      "path":"CC-BY-NC-4.0.txt"
+   },
+   {
+      "id":"CC-BY-NC-ND-4.0",
+      "name":"CreativeCommons Attribution-NonCommercial-NoDerivatives 4.0 International",
+      "path":"CC-BY-NC-ND-4.0.txt"
+   },
+   {
+      "id":"CC-BY-NC-SA-4.0",
+      "name":"CreativeCommons Attribution-NonCommercial-ShareAlike 4.0 International",
+      "path":"CC-BY-NC-SA-4.0.txt"
+   },
+   {
+      "id":"RU-DI-HD-1.0",
+      "name":"Radboud University - Donders Institute - Human Data 1.0",
+      "path":"RU-DI-HD-1.0.txt"
+   },
+   {
+      "id":"RU-DI-NH-1.0",
+      "name":"Radboud University - Donders Institute - Non-Human Data 1.0",
+      "path":"RU-DI-NH-1.0.txt"
+   },
+   {
+      "id":"ODC-BY-1.0",
+      "name":"OpenDataCommons Attribution License",
+      "path":"ODC-BY-1.0.txt"
+   },
+   {
+      "id":"ODC-ODbL-1.0",
+      "name":"OpenDataCommons Open Database License",
+      "path":"ODC-ODbL-1.0.txt"
+   },
+   {
+      "id":"ODC-PDDL-1.0",
+      "name":"OpenDataCommons Public Domain Dedication & Licence",
+      "path":"ODC-PDDL-1.0.txt"
+   },
+   {
+      "id":"GPL-2.0",
+      "name":"GNU General Public License v2.0",
+      "path":"GPL-2.0.txt"
+   },
+   {
+      "id":"GPL-3.0",
+      "name":"GNU General Public License v3.0",
+      "path":"GPL-3.0.txt"
+   },
+   {
+      "id":"APACHE-2.0",
+      "name":"Apache License 2.0",
+      "path":"APACHE-2.0.txt"
+   },
+   {
+      "id":"ARTISTIC-2.0",
+      "name":"Artistic License 2.0",
+      "path":"ARTISTIC-2.0.txt"
+   },
+   {
+      "id":"BSD",
+      "name":"BSD 2-clause \"Simplified\" License",
+      "path":"BSD.txt"
+   },
+   {
+      "id":"EPL-1.0",
+      "name":"Eclipse Public License 1.0",
+      "path":"EPL-1.0.txt"
+   },
+   {
+      "id":"LGPL-3.0",
+      "name":"GNU Lesser General Public License v3.0",
+      "path":"LGPL-3.0.txt"
+   },
+   {
+      "id":"MIT",
+      "name":"MIT License",
+      "path":"MIT.txt"
+   },
+   {
+      "id":"MPL-2.0",
+      "name":"Mozilla Public License 2.0",
+      "path":"MPL-2.0.txt"
+   },
+   {
+      "id":"ISC",
+      "name":"ISC License",
+      "path":"MIT.txt"
+   }
+]

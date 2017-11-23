@@ -1,0 +1,35 @@
+node {
+    def mvnHome = tool 'M3'
+
+    stage('Checkout') {
+        checkout scm
+    }
+
+    stage('Build') {
+        sh "${mvnHome}/bin/mvn -U clean package"
+    }
+
+    stage('Release') {
+        def userInput = input(
+                id: 'userInput',
+                message: 'Do you want to release a new version?',
+                ok: 'Release new version',
+                parameters: [
+                        [
+                                $class      : 'TextParameterDefinition',
+                                defaultValue: '',
+                                description : 'Release version (e.g. 1.1.0)',
+                                name        : 'releaseVersion'
+                        ],
+                        [
+                                $class      : 'TextParameterDefinition',
+                                defaultValue: '',
+                                description : 'Development version (e.g. 1.0.0-SNAPSHOT)',
+                                name        : 'developmentVersion'
+                        ]
+                ]
+        )
+        milestone()
+        sh "${mvnHome}/bin/mvn release:prepare release:perform  --batch-mode -DreleaseVersion=${userInput['releaseVersion']} -DdevelopmentVersion=${userInput['developmentVersion']}"
+    }
+}

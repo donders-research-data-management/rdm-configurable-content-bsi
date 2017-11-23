@@ -1,0 +1,52 @@
+{
+	"popular": [
+		"ECSW",
+		"EACH",
+		"ABR",
+		"CMO regio A-N",
+		"IRB Nijmegen",
+		"DEC Radboud Universiteit"
+	],
+	"other_human": [
+		"CCMO",
+		"CME LUMC",
+		"MEC AMC",
+		"METC azM/UM",
+		"METC Z",
+		"METC Brabant",
+		"METC Erasmus MC",
+		"METC Isala klinieken",
+		"METC MMC",
+		"METC Noord- Holland",
+		"METC Twente",
+		"METC UMCG",
+		"METC UMCU",
+		"METc VUmc",
+		"METC-WU",
+		"METC ZWH",
+		"METC AVL",
+		"RTPO",
+		"Stg BEBO",
+		"METC SLZ",
+		"TWOR",
+		"MEC-U"
+	],
+	"other_animal": [
+		"DEC ALt",
+		"DEC AMC",
+		"DEC BI Weesp",
+		"DEC BPRC",
+		"DEC Consult",
+		"DEC KNAW",
+		"DEC Leiden",
+		"DEC MSD",
+		"DEC NKI",
+		"DEC RUG",
+		"DEC TNO",
+		"DEC UM",
+		"DEC Utrecht",
+		"DEC VU/VUmc",
+		"DEC WIL Research Europe",
+		"DEC Wageningen UR"
+	]
+}

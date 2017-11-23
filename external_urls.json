@@ -1,0 +1,34 @@
+{
+  "controlledVocabularies" : "http://data.donders.ru.nl/doc/vocabulary/collection_keyword/",
+  "dataUseAgreement" : "http://data.donders.ru.nl/doc/dua/index.json",
+  "dataUseAgreementContents" : "http://data.donders.ru.nl/doc/dua/{id}.txt",
+  "publicationSystems" : "http://data.donders.ru.nl/doc/vocabulary/publication_system.json",
+  "ethicalReviewBoards" : "http://data.donders.ru.nl/doc/vocabulary/ethics_review_board.json",
+  "legal" : "http://data.donders.ru.nl/doc/privacy/privacy_policy.html",
+  "login" : "http://data.donders.ru.nl/doc/login/login.html",
+  "logout" : "http://data.donders.ru.nl/doc/logout/logout.html",
+  "homepage" : "http://data.donders.ru.nl/doc/homepage/homepage.html",
+  "footer" : "http://data.donders.ru.nl/doc/footer/footer.html",
+  "privacyPolicy" : "http://data.donders.ru.nl/doc/privacy/privacy_policy.html",
+  "emailCollectionChangesLeadText" : "http://data.donders.ru.nl/doc/email/collectionChangesLeadText.html",
+  "emailManagerLessCollectionsLeadText" : "http://data.donders.ru.nl/doc/email/managerLessCollectionsLeadText.html",
+
+  "collections.header" : "http://www.ru.nl/donders/research/data/faq/get-started/#h11c325e4-dbac-4ce9-a903-6b349ae3336c",
+
+  "editCollectionModal.form.ethicalApprovalsLabel" : "http://www.ru.nl/donders/research/data/faq/get-started/#h35a6ab14-4886-4955-b888-d574621c5713",
+  "editCollectionModal.form.meshKeywordsBorder" : "http://www.ru.nl/donders/research/data/faq/get-started/#hc738a7fa-dcf8-4046-9051-0b3b4aedd10d",
+  "editCollectionModal.form.meshKeywordsLabel" : "http://www.ru.nl/donders/research/data/faq/get-started/#hc738a7fa-dcf8-4046-9051-0b3b4aedd10d",
+  "editCollectionModal.form.sfnKeywordsBorder" : "http://www.ru.nl/donders/research/data/faq/get-started/#hd52a3e99-1250-43dc-9203-4397db955132",
+  "editCollectionModal.form.sfnKeywordsLabel" : "http://www.ru.nl/donders/research/data/faq/get-started/#hd52a3e99-1250-43dc-9203-4397db955132",
+  "editCollectionModal.form.dataUseAgreementId": "https://data.donders.ru.nl/datauseagreement",
+  "editCollectionModal.header-label" : "http://www.ru.nl/donders/research/data/user-manual/get-started/edit-your-collection-details/",
+
+  "navbar.helpButton" : "http://www.ru.nl/donders/research/data/",
+  "oneTimePasswordModal.explanationLink" : "http://www.ru.nl/donders/research/data/user-manual/transfer-data/",
+  
+  "user.researcherId.urlPrefix" : "http://www.researcherid.com/rid/",
+  "user.openResearcherAndContributorId.urlPrefix" : "http://orcid.org/",
+  "collection.mesh2015Keyword.urlPrefix" : "http://id.nlm.nih.gov/mesh/",
+  
+  "message.user.signup": "http://data.donders.ru.nl/doc/messages/signup.html"
+}

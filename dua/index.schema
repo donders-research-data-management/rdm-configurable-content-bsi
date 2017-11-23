@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "DuaList",
+    "description": "List of Data Use Agreement",
+    "type": "array",
+    "uniqueItems": true,
+    "items": {
+        "type": "object",
+        "required": ["id","name","path"],
+        "properties": {
+            "id": {
+                 "description": "Unique identifier",
+                 "type": "string"
+             },
+            "name": {
+                 "description": "Name of the Data Use Agreement",
+                 "type": "string"
+             },
+            "path": {
+                 "description": "path to the DUA content",
+                 "type": "string"
+             }
+        }
+    }
+}
