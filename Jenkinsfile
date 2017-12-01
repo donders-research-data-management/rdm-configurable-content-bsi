@@ -15,7 +15,7 @@ node {
         }
 
         stage('Archive') {
-            archiveArtifacts artifacts: 'target/rdm-ontology-*', fingerprint: true
+            archiveArtifacts artifacts: 'target/rdm-configurable-content-bsi*', fingerprint: true
         }
     } finally {
         deleteDir()
